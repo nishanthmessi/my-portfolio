@@ -19,7 +19,7 @@ const Experience = () => {
           <p className="lg:w-2/3 mx-auto leading-relaxed text-start mt-4 font-medium">I am an experienced developer. So far I wrote modern, performant, maintainable code for a diverse array of client and internal projects.</p>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-start mt-4 font-medium">Automating and creating ideas to improve the application standard and stability.</p>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-start mt-4 font-medium">Communicate with multi-disciplinary teams of engineers, developers and clients on a daily basis.</p>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-start mt-4 font-medium">Well-organised person, problem solver, independent employee and a team player as well</p>
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-start mt-4 font-medium">Well-organised person, problem solver, independent employee and a team player as well.</p>
         </div>
         </div>
       </section>

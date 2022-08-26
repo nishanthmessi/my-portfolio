@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
       <Socials/>
-      <div className='font-medium text-center mt-20 mb-5'>Designed and Developed with 💛</div>
+      <div className='text-sm font-medium text-center mt-20 mb-5'>Designed and Developed with 💛</div>
     </>
   )
 }
