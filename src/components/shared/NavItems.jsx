@@ -1,6 +1,6 @@
 import { Link } from 'react-scroll'
 
-const NavList = ({ setNavMobile }) => {
+const NavItems = () => {
   return (
     <>
         <Link
@@ -11,8 +11,7 @@ const NavList = ({ setNavMobile }) => {
           offset={0}
           duration={500}
           delay={100}
-          className='hover:text-primary cursor-pointer font-bold'
-          onClick={() => setNavMobile(false)}
+          className='hover:text-primary cursor-pointer'
         >
           About
         </Link>
@@ -24,8 +23,7 @@ const NavList = ({ setNavMobile }) => {
           offset={0}
           duration={550}
           delay={100}
-          className='hover:text-primary cursor-pointer font-bold'
-          onClick={() => setNavMobile(false)}
+          className='hover:text-primary cursor-pointer'
         >
           Experience
         </Link>
@@ -37,8 +35,7 @@ const NavList = ({ setNavMobile }) => {
           offset={0}
           duration={600}
           delay={100}
-          className='hover:text-primary cursor-pointer font-bold'
-          onClick={() => setNavMobile(false)}
+          className='hover:text-primary cursor-pointer'
         >
           Skills
         </Link>
@@ -50,8 +47,7 @@ const NavList = ({ setNavMobile }) => {
           offset={0}
           duration={650}
           delay={100}
-          className='hover:text-primary cursor-pointer font-bold'
-          onClick={() => setNavMobile(false)}
+          className='hover:text-primary cursor-pointer'
         >
           Works
         </Link>
@@ -63,8 +59,7 @@ const NavList = ({ setNavMobile }) => {
           offset={0}
           duration={700}
           delay={100}
-          className='hover:text-primary cursor-pointer font-bold'
-          onClick={() => setNavMobile(false)}
+          className='hover:text-primary cursor-pointer'
         >
           Contact
         </Link>
@@ -72,4 +67,4 @@ const NavList = ({ setNavMobile }) => {
   )
 }
 
-export default NavList
+export default NavItems

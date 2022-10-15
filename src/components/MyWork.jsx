@@ -1,31 +1,42 @@
-import { useEffect } from 'react'
+import { motion } from "framer-motion";
+import { fadeIn } from '../animation/variants'
 import Projects from './shared/Projects'
 import myLinks from '../data/myLinks'
-import Aos from 'aos'
-import 'aos/dist/aos.css'
 
 const MyWork = ({ projectData }) => {
-  useEffect(() => {
-    Aos.init({duration: 1000});
-  }, [])
-
   const links = myLinks
 
   return (
     <>
     <section className='mb-10 pt-14' id='works'>
       <div className='flex flex-col items-center justify-center py-8'>
-        <h1 className='sm:text-3xl lg:text-4xl text-3xl font-bold title-font mb-8' data-aos='fade-up'>My Works</h1>
-        <p className='text-2xl mt-10 font-medium'  data-aos='fade-up'>Here's few things I've build</p>
+        <motion.h1 
+          variants={fadeIn('up')}
+          initial='hidden'
+          whileInView={'show'}
+          className='sm:text-3xl lg:text-4xl text-3xl font-bold title-font mb-8'>My Works</motion.h1>
+        <motion.p 
+          variants={fadeIn('up')}
+          initial='hidden'
+          whileInView={'show'}
+          className='text-2xl mt-10 font-medium'>Here's few things I've build</motion.p>
       </div>
-      <div className='flex flex-wrap items-center gap-8 justify-center px-10 2xl:mx-96' data-aos='fade-up'>
+      <motion.div 
+        variants={fadeIn('up')}
+        initial='hidden'
+        whileInView={'show'}
+        className='flex flex-wrap items-center gap-8 justify-center px-10 2xl:mx-96'>
         {projectData.map((project) => (
           <Projects key={project.id} item={project}/>
         ))}
-      </div>
-      <div className='flex justify-center mt-10' data-aos='fade-up'>
+      </motion.div>
+      <motion.div 
+        variants={fadeIn('up')}
+        initial='hidden'
+        whileInView={'show'}
+        className='flex justify-center mt-10'>
         <a href={links.repos} target='_blank' className='btn btn-neutral btn-sm hover:text-primary rounded' rel="noreferrer">view all</a>
-      </div>   
+      </motion.div>   
     </section>
     </>
   )
