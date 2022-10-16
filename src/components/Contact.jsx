@@ -10,7 +10,9 @@ const Contact = () => {
             initial='hidden'
             whileInView={'show'}
             className='sm:text-3xl lg:text-4xl text-3xl font-bold text-center mb-14'
-          >Contact Me</motion.h1>
+          >
+            Contact Me
+          </motion.h1>
         </div>
         <div>
           <motion.div 

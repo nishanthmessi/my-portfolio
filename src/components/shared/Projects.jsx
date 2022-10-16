@@ -12,11 +12,11 @@ const Projects = ({item}) => {
             { 
               item.projectUrl === ''  ? '' : 
               <a href={item.projectUrl} target='_blank' rel='noreferrer'>
-                {<ExternalLink className='socialIcons'/>}
+                {<ExternalLink className='hover:text-primary'/>}
               </a>
             }
             <a href={item.githubUrl} target='_blank' rel='noreferrer'>
-              <GitHub className='socialIcons'/>
+              <GitHub className='hover:text-primary'/>
             </a>
           </div>
         </div>

@@ -17,23 +17,30 @@ const Skills = () => {
               variants={fadeIn('up')}
               initial='hidden'
               whileInView={'show'}
-              className="sm:text-3xl lg:text-4xl text-3xl font-bold title-font mb-16">Skills</motion.h1>
+              className="sm:text-3xl lg:text-4xl text-3xl font-bold title-font mb-16"
+            >
+              Skills
+            </motion.h1>
             <motion.p 
               variants={fadeIn('up')}
               initial='hidden'
               whileInView={'show'}
-              className="px-4 mx-auto leading-relaxed text-base font-medium">I have passion for self-learning and strive to improve and challenge my skills to become better at what I do. Below are my skills and technologies I've been learning / working with recently.</motion.p>
+              className="px-4 mx-auto leading-relaxed text-base font-medium"
+            >
+              I have passion for self-learning and strive to improve and challenge my skills to become better at what I do. Below are my skills and technologies I've been learning / working with recently.
+            </motion.p>
           </div>
-            <div className="flex flex-wrap items-center justify-center w-full">
-              <motion.div 
-                variants={fadeIn('up')}
-                initial='hidden'
-                whileInView={'show'}
-                className="flex flex-wrap gap-10 lg:px-90 justify-center">                
-                {icons}
-              </motion.div>             
-            </div>
+          <div className="flex flex-wrap items-center justify-center w-full">
+            <motion.div 
+              variants={fadeIn('up')}
+              initial='hidden'
+              whileInView={'show'}
+              className="flex flex-wrap gap-10 lg:px-90 justify-center"
+            >                
+              {icons}
+            </motion.div>             
           </div>
+        </div>
       </section>
     </>
   )

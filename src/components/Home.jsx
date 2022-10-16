@@ -26,7 +26,7 @@ const Home = () => {
           duration: 0.8,
           delay: 0.7,
           ease: [0, 0.71, 0.2, 1.01]
-      }}
+        }}
       >
         <p className='xl:text-3xl md:text-2xl text-2xl font-bold my-4 px-2 text-center'>I build things for the web and I love <img src={coffeeCup} alt="coffee-cup" className='inline mb-2 h8 w-8'/> 
         </p>  
@@ -38,9 +38,9 @@ const Home = () => {
           duration: 0.8,
           delay: 0.9,
           ease: [0, 0.71, 0.2, 1.01]
-      }}
+        }}
       >
-      <Link className='btn btn-primary rounded hover:text-white'
+        <Link className='btn btn-primary rounded hover:text-white'
           activeClass="active"
           to="contact"
           spy={false}
@@ -59,7 +59,7 @@ const Home = () => {
           duration: 0.8,
           delay: 1,
           ease: [0, 0.71, 0.2, 1.01]
-      }}
+        }}
       >
         <Socials/>
       </motion.div>    

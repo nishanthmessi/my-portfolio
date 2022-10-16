@@ -1,7 +1,6 @@
-import React from 'react'
-import tcsLogo from '../assets/img/project-img/logo-tcs.png'
 import { motion } from "framer-motion";
 import { fadeIn } from '../animation/variants'
+import tcsLogo from '../assets/img/project-img/logo-tcs.png'
 
 const Experience = () => {
   return (
@@ -13,7 +12,10 @@ const Experience = () => {
             variants={fadeIn('up')}
             initial='hidden'
             whileInView={'show'}
-            className="sm:text-3xl lg:text-4xl text-3xl font-bold title-font mb-20">Where I've Worked</motion.h1>
+            className="sm:text-3xl lg:text-4xl text-3xl font-bold title-font mb-20"
+          >
+            Where I've Worked
+          </motion.h1>
           <div className="flex flex-wrap items-center justify-center p-2 w-full">
             <div className="flex flex-wrap gap-10 lg:px-90 justify-center">
               <motion.div
@@ -31,13 +33,13 @@ const Experience = () => {
             initial='hidden'
             whileInView={'show'}
           >
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-start mt-4 font-medium">I am an experienced developer. So far I wrote modern, performant, maintainable code for a diverse array of client and internal projects.</p>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-start mt-4 font-medium">Automating and creating ideas to improve the application standard and stability.</p>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-start mt-4 font-medium">Communicate with multi-disciplinary teams of engineers, developers and clients on a daily basis.</p>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-start mt-4 font-medium">Well-organised person, problem solver, independent employee and a team player as well.</p>
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-center mt-4 font-medium">I am an experienced developer. So far I wrote modern, performant, maintainable code for a diverse array of client and internal projects.</p>
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-center mt-4 font-medium">Automating and creating ideas to improve the application standard and stability.</p>
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-center mt-4 font-medium">Communicate with multi-disciplinary teams of engineers, developers and clients on a daily basis.</p>
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-center mt-4 font-medium">Well-organised person, problem solver, independent employee and a team player as well.</p>
           </motion.div>
         </div>
-        </div>
+      </div>
       </section>
     </div>
   )
