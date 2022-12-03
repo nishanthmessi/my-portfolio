@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { fadeIn } from '../animation/variants'
 
 const Skills = () => {
-  const skillsList = ['react', 'js', 'html-5', 'css-3', 'nodejs', 'express', 'mongodb', 'mysql', 'tailwind', 'sass', 'bootstrap', 'c-sharp', 'git', 'npm', 'vscode', 'netlify', 'figma']
+  const skillsList = ['react', 'nodejs', 'express', 'mongodb', 'js', 'html-5', 'css-3', 'tailwind', 'sass', 'bootstrap', 'mysql', 'c-sharp', 'git', 'npm', 'vscode', 'netlify', 'heroku']
 
   const icons = skillsList.map((icon, index) => {
     return <img alt="html" className="w-16 h-16  object-center flex-shrink-0 mr-4" src={require(`../assets/img/skills-img/${icon}.png`)} key={index} />
