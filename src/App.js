@@ -4,6 +4,7 @@ import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
+import Marquee from "./components/Marquee";
 import MyWork from "./components/MyWork";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
@@ -20,6 +21,7 @@ function App() {
       <Experience/> 
       <Skills/>
       <MyWork projectData={projectData}/>
+      <Marquee/>
       <Contact/>
       <Footer/>
     </>
