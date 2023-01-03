@@ -27,7 +27,8 @@ body {
 #home {
   background: url('./assets/img/project-img/bg.svg');
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: right;
+  object-fit: cover;
 }
 
 /*image hover*/

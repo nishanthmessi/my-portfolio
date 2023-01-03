@@ -22,7 +22,7 @@ const Contact = () => {
             className='flex flex-col justify-center items-center gap-6 max-w-lg px-4'
           >
             <h1 className='text-2xl font-medium'>Get in touch</h1>
-            <p className='text-center font-medium'>Hello there. My inbox is always open, whether you have any question or just want to say 'hi' reach out to me, I'll try my best to get back to you!</p>
+            <p className='text-center text-lg font-medium'>Hello there. My inbox is always open, whether you have any question or just want to say 'hi' reach out to me, I'll try my best to get back to you!</p>
           </motion.div>
           <motion.div 
             variants={fadeIn('up')}

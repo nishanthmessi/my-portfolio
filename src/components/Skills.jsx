@@ -25,7 +25,7 @@ const Skills = () => {
               variants={fadeIn('up')}
               initial='hidden'
               whileInView={'show'}
-              className="px-4 mx-auto leading-relaxed text-base font-medium"
+              className="px-4 mx-auto leading-relaxed text-lg font-medium "
             >
               I have passion for self-learning and strive to improve and challenge my skills to become better at what I do. Below are my skills and technologies I've been learning / working with recently.
             </motion.p>

@@ -13,12 +13,9 @@ const Socials = () => {
       <a href={links.linkedin} target='_blank' rel="noreferrer" className='transition ease-in-out delay-150 hover:text-primary hover:-translate-y-2 hover:scale-104 duration-300'>
         <Linkedin className='h-8 w-10'/>
       </a>
-      <a href={links.twitter} target='_blank' rel="noreferrer" className='transition ease-in-out delay-150 hover:text-primary hover:-translate-y-2 hover:scale-104 duration-300'>
+      {/* <a href={links.twitter} target='_blank' rel="noreferrer" className='transition ease-in-out delay-150 hover:text-primary hover:-translate-y-2 hover:scale-104 duration-300'>
         <Twitter className='h-8 w-10'/>
-      </a>
-      <a href={links.insta} target='_blank' rel="noreferrer" className='transition ease-in-out delay-150 hover:text-primary hover:-translate-y-2 hover:scale-104 duration-300'>
-        <Instagram className='h-8 w-10'/>
-      </a>    
+      </a>     */}
     </div>
     </>
   )

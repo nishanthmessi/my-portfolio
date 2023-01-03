@@ -24,7 +24,7 @@ const Experience = () => {
                 whileInView={'show'}
               >
                 <img alt="html" className="w-full h-14 flex-shrink-0 mr-4" src={tcsLogo} />
-                <p className='badge badge-neutral text-white font-medium my-2'>2020 - Present</p>
+                <p className='badge badge-neutral text-white font-medium my-2'>2020 - 2022</p>
               </motion.div>              
             </div>          
           </div>
@@ -33,10 +33,10 @@ const Experience = () => {
             initial='hidden'
             whileInView={'show'}
           >
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-center mt-4 font-medium">I am an experienced developer. So far I wrote modern, performant, maintainable code for a diverse array of client and internal projects.</p>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-center mt-4 font-medium">Automating and creating ideas to improve the application standard and stability.</p>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-center mt-4 font-medium">Communicate with multi-disciplinary teams of engineers, developers and clients on a daily basis.</p>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-center mt-4 font-medium">Well-organised person, problem solver, independent employee and a team player as well.</p>
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-center mt-4 text-lg font-medium">I am an experienced developer. So far I wrote modern, performant, maintainable code for a diverse array of client and internal projects.</p>
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-center mt-4 text-lg font-medium">Automating and creating ideas to improve the application standard and stability.</p>
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-center mt-4 text-lg font-medium">Communicate with multi-disciplinary teams of engineers, developers and clients on a daily basis.</p>
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-center mt-4 text-lg font-medium">Well-organised person, problem solver, independent employee and a team player as well.</p>
           </motion.div>
         </div>
       </div>
